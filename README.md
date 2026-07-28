@@ -21,3 +21,17 @@ This project delivers:
 5. **Report Exports**: PDF summary outputs for quick evaluation and visual distribution.
 
 ---
+
+## 📊 Dataset Information
+
+* **Source Target**: Total Energy Electric Power Sector $\text{CO}_2$ Emissions (`Description == "Total Energy Electric Power Sector CO2 Emissions"`)
+* **Unit of Measurement**: Million Metric Tons of Carbon Dioxide ($\text{MMT CO}_2$)
+* **Time Granularity**: Monthly (`YYYYMM` format transformed to datetime `ds`)
+
+### Sample Data Format
+| Date (`YYYYMM` / `ds`) | Value (`y`) | Description | Unit |
+| :--- | :--- | :--- | :--- |
+| `1973-01-01` | `72.076` | Total Energy Electric Power Sector CO2 Emissions | Million Metric Tons |
+| `1973-02-01` | `64.442` | Total Energy Electric Power Sector CO2 Emissions | Million Metric Tons |
+
+---
