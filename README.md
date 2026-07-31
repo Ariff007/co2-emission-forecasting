@@ -35,3 +35,12 @@ This project delivers:
 | `1973-02-01` | `64.442` | Total Energy Electric Power Sector CO2 Emissions | Million Metric Tons |
 
 ---
+
+## 🔬 Methodology & Modeling Approaches
+
+```mermaid
+flowchart TD
+    A[Raw Data: data.csv] --> B[Filter Electric Power Sector & Format Datetime]
+    B --> C[Clean & Handle Missing Values]
+    C --> D1[Prophet Modeling Pipeline]
+    C --> D2[XGBoost Feature Engineering]
