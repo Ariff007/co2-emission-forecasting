@@ -44,3 +44,7 @@ flowchart TD
     B --> C[Clean & Handle Missing Values]
     C --> D1[Prophet Modeling Pipeline]
     C --> D2[XGBoost Feature Engineering]
+
+    D1 --> E1[Multiplicative Seasonality Setup]
+    E1 --> F1[2-Year Train/Test Holdout Evaluation]
+    F1 --> G1[Full Dataset Training & 120-Month Extrapolation]
