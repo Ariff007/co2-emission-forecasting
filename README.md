@@ -48,3 +48,7 @@ flowchart TD
     D1 --> E1[Multiplicative Seasonality Setup]
     E1 --> F1[2-Year Train/Test Holdout Evaluation]
     F1 --> G1[Full Dataset Training & 120-Month Extrapolation]
+
+    D2 --> E2[Lag Features: lag_1, lag_12, Month]
+    E2 --> F2[Train XGBoost Regressor]
+    F2 --> G2[Recursive Step-by-Step 120-Month Forecast]
