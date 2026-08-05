@@ -52,3 +52,6 @@ flowchart TD
     D2 --> E2[Lag Features: lag_1, lag_12, Month]
     E2 --> F2[Train XGBoost Regressor]
     F2 --> G2[Recursive Step-by-Step 120-Month Forecast]
+
+    G1 --> H[Visualization & Forecast Reports]
+    G2 --> H
