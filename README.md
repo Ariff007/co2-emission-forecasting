@@ -55,3 +55,9 @@ flowchart TD
 
     G1 --> H[Visualization & Forecast Reports]
     G2 --> H
+```
+
+### 1. Facebook Prophet Model
+* **Model Type**: Additive/Multiplicative Generalized Additive Model (GAM) decomposed into:
+  $$\hat{y}(t) = g(t) \cdot s(t) + \epsilon_t$$
+  where $g(t)$ represents the trend and $s(t)$ represents annual multiplicative seasonality.
