@@ -61,3 +61,8 @@ flowchart TD
 * **Model Type**: Additive/Multiplicative Generalized Additive Model (GAM) decomposed into:
   $$\hat{y}(t) = g(t) \cdot s(t) + \epsilon_t$$
   where $g(t)$ represents the trend and $s(t)$ represents annual multiplicative seasonality.
+* **Evaluation Protocol**: Holdout test set over the last 24 months (2 years).
+* **Metrics Tracked**:
+  - **MAPE** (Mean Absolute Percentage Error)
+  - **MAE** (Mean Absolute Error)
+  - **RMSE** (Root Mean Squared Error)
