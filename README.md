@@ -66,3 +66,6 @@ flowchart TD
   - **MAPE** (Mean Absolute Percentage Error)
   - **MAE** (Mean Absolute Error)
   - **RMSE** (Root Mean Squared Error)
+
+### 2. XGBoost Regressor
+* **Model Type**: Gradient Boosted Decision Trees (`xgb.XGBRegressor`)
