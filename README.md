@@ -69,3 +69,7 @@ flowchart TD
 
 ### 2. XGBoost Regressor
 * **Model Type**: Gradient Boosted Decision Trees (`xgb.XGBRegressor`)
+* **Feature Engineering**:
+  - $\text{lag}_1$: Emission from the previous month ($t-1$)
+  - $\text{lag}_{12}$: Emission from the same month of the previous year ($t-12$)
+  - $\text{month}$: Ordinal month indicator ($1 \dots 12$) to capture intra-year seasonality.
