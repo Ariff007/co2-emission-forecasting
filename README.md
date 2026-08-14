@@ -73,3 +73,6 @@ flowchart TD
   - $\text{lag}_1$: Emission from the previous month ($t-1$)
   - $\text{lag}_{12}$: Emission from the same month of the previous year ($t-12$)
   - $\text{month}$: Ordinal month indicator ($1 \dots 12$) to capture intra-year seasonality.
+* **Forecasting Mechanism**: Recursive step-by-step auto-regression. For each step $k \in [1, 120]$, predicted values are fed back into the history to construct subsequent lag features.
+
+---
