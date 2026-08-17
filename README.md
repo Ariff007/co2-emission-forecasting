@@ -76,3 +76,8 @@ flowchart TD
 * **Forecasting Mechanism**: Recursive step-by-step auto-regression. For each step $k \in [1, 120]$, predicted values are fed back into the history to construct subsequent lag features.
 
 ---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have **Python 3.8+** installed.
